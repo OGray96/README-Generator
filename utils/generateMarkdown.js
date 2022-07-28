@@ -28,10 +28,10 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     if(license !== 'No License'){
         return `
-## License\n
+## [License](#table-of-contents)\n
 ${renderLicenseBadge(license)} \n 
-    This application is running under the license: ${renderLicenseLink(license)}.\n
-    For more information on this license please follow the link.`
+This application is running under the license: ${renderLicenseLink(license)}.\n
+For more information on this license please follow the link.`
         
     } else
     {
@@ -41,7 +41,7 @@ ${renderLicenseBadge(license)} \n
 }
 
 // TODO: Create a function to generate markdown for README
-const generateMarkdown = ({ title, description, install, usage, contributing, test, license}) =>
+const generateMarkdown = ({ title, description, install, usage, contributing, test, license, github, email}) =>
 `# ${title}
 
 ${renderLicenseBadge(license)}
@@ -52,29 +52,36 @@ ${renderLicenseBadge(license)}
 3. [Usage Information](#usage-information)
 4. [Contributing Guidelines](#Contributing-Guidelines)
 5. [Test Info](#test-info)
+6. [Questions](#questions)
 
-## Description
+## [Description](#table-of-contents)
 
     ${description}
 
-## Instructions 
+## [Instructions](#table-of-contents)
 
     ${install}
 
-## Usage information 
+## [Usage information](#table-of-contents)
 
     ${usage}
 
-## Contributing Guidelines
+## [Contributing Guidelines](#table-of-contents)
 
     ${contributing}
 
-## Test info
+## [Test info](#table-of-contents)
 
     ${test}
 
 
 ${renderLicenseSection(license)}
+
+## [Questions](#table-of-contents)
+
+If you have any questions please don't hestitate to email me at [${email}](#${email}).
+
+If you would like to see more of my work please find me at [GitHub](#www.github.com/${github})
 
 `
 

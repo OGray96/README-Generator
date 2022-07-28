@@ -1,6 +1,6 @@
-# l
+# Example Project Demonstration
 
-![badge](https://img.shields.io/badge/license-mit-blue)
+![badge](https://img.shields.io/badge/license-apgl-blue)
 
 ## Table of Contents
 1. [Description](#description)
@@ -8,34 +8,41 @@
 3. [Usage Information](#usage-information)
 4. [Contributing Guidelines](#Contributing-Guidelines)
 5. [Test Info](#test-info)
+6. [Questions](#questions)
 
-## Description
+## [Description](#table-of-contents)
 
-    l
+    This is a practice description of the README
 
-## Instructions 
+## [Instructions](#table-of-contents)
 
-    l
+    In order to install the project please follow...
 
-## Usage information 
+## [Usage information](#table-of-contents)
 
-    l
+    Usage information would be input here....
 
-## Contributing Guidelines
+## [Contributing Guidelines](#table-of-contents)
 
-    l
+    Contributing guidelines here
 
-## Test info
+## [Test info](#table-of-contents)
 
-    l
+    Test information here....
 
 
 
-## License
+## [License](#table-of-contents)
 
-![badge](https://img.shields.io/badge/license-mit-blue) 
+![badge](https://img.shields.io/badge/license-apgl-blue) 
  
-This application is running under the license: [mit](https://choosealicense.com/licenses/mit).
+This application is running under the license: [apgl](https://choosealicense.com/licenses/apgl).
 
-For more information on this license please follow the link
+For more information on this license please follow the link.
+
+## [Questions](#table-of-contents)
+
+If you have any questions please don't hestitate to email me at [example@gmail.com](#example@gmail.com).
+
+If you would like to see more of my work please find me at [GitHub](#www.github.com/Github username...)
 
